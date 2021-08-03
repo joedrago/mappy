@@ -1,0 +1,18 @@
+%{
+
+#include <string.h>
+
+#include "external.h"
+
+%}
+struct Symbol
+{
+    const char *name;
+    void * func;
+};
+%%
+hello1, hello1
+hello2, hello2
+hello3, hello3
+hello4, hello4
+hello5, hello5
